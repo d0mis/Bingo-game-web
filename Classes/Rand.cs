@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Bingo_game_web.Classes
 {
     //Class used to generate a list of numbers and draw them randomly
-    internal class Rand
+    public class Rand
     {
         private int[] list;
         private int length;

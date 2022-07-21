@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Bingo_game_web.Classes
 {
     //Class used to store a number cell on the game board
-    internal class BingNumb
+    public class BingNumb
     {
         public int number;
         public bool marked;

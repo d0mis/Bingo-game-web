@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Bingo_game_web.Classes
 {
     //Class used to store game board
-    internal class Card
+    public class Card
     {
         BingNumb[,] board;
         
