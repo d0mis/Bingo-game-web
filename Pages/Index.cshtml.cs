@@ -7,16 +7,28 @@ namespace Bingo_game_web.Pages
 {
     public class IndexModel : PageModel
     {
-       
-
-        public IndexModel()
-        {
-            
-        }
+        public int score = 0;
+        [BindProperty]
+        public int max { get; set; }
+        [BindProperty]
+        public int rows { get; set; }
+        [BindProperty]
+        public int columns { get; set; }
+        Card game = new Card();
 
         public void OnGet()
+    {
+
+    }
+     public IActionResult OnPost()
         {
-            
+            game = new Card(rows, columns, max);
+            Rand numbers = new Rand(max); //crates a new list of numbers 0 to max
+            numbers.Suffle(); //shuffles the list
+
+            return Page();
+           
         }
+      
     }
 }

@@ -15,6 +15,8 @@ namespace Bingo_game_web.Classes
         int columns;
         int max;
 
+        public Card()
+        { }
         //Creates a board filled by random numbers
         public Card(int  rows, int columns, int max)
         {

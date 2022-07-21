@@ -5,6 +5,32 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Score= @Model.score</h1>
 </div>
+<form method="post">
+    Max number
+    <input type="number" asp-for="max" />
+    Number of rows
+    <input type="number" asp-for="rows" />
+    Number of columns
+
+    <input type="number" asp-for="columns"/>
+    <button type="submit">New game</button>
+</form>
+
+<div>
+    Test=@Model.max
+</div>
+<table>
+    @{
+        for(int i=0;i<@Model.rows;i++)
+        {
+        <tr></tr>
+            for(int j=0;j<@Model.columns;j++)
+            {
+                <td> test</td>
+            }
+        
+        }
+    }
+</table>
