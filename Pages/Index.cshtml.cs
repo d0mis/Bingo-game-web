@@ -35,6 +35,17 @@ namespace Bingo_game_web.Pages
                 game.Mark(draw); //marks the number on the board
                 
             }
+            if (game.CheckBingo())
+            {
+                Console.WriteLine("BINGO");
+                score += 1500;
+            }
+            else
+            {
+                for (int j = 0; j < rows; j++)
+                    if (game.CheckRow(j))
+                        score += 100;
+            }
             return Page();
            
         }
