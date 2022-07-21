@@ -7,7 +7,7 @@
 <div class="text-center">
     <h1 class="display-4">Score= @Model.score</h1>
 </div>
-<form method="post">
+<form asp-page-handler="Play" method="post">
     Max number
     <input type="number" asp-for="max" />
     Number of rows
@@ -15,7 +15,9 @@
     Number of columns
 
     <input type="number" asp-for="columns"/>
-    <button type="submit">New game</button>
+    Number of draws
+    <input type="number" asp-for="draws"/>
+    <button type="submit">Play</button>
 </form>
 
 <div>
@@ -25,12 +27,20 @@
     @{
         for(int i=0;i<@Model.rows;i++)
         {
-        <tr></tr>
+            <tr></tr>
             for(int j=0;j<@Model.columns;j++)
             {
-                <td>@Model.game.ReturnN(i,j).number </td>
+                if (!@Model.game.ReturnN(i, j).marked)
+                {
+                    <td>@Model.game.ReturnN(i,j).number </td>
+                }
+                if (@Model.game.ReturnN(i, j).marked)
+                {
+                    <td>x </td>
+                }
             }
         
         }
     }
-</table>
+</table> 
+   

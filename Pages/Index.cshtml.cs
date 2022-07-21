@@ -9,27 +9,36 @@ namespace Bingo_game_web.Pages
     {
         public int score = 0;
         [BindProperty]
-        public int max { get; set; }
+        public int max { get; set; } = 60;
         [BindProperty]
-        public int rows { get; set; }
+        public int rows { get; set; } = 3;
         [BindProperty]
-        public int columns { get; set; }
-       public Card game { get; set; }
+        public int columns { get; set; } = 5;
+        [BindProperty]
+        public int draws { get; set; } = 30;
+        public Card game { get; set; }
 
         public void OnGet()
     {
-            
-        }
-     public IActionResult OnPost()
-        {
-
-
             game = new Card(rows, columns, max);
             Rand numbers = new Rand(max); //crates a new list of numbers 0 to max
             numbers.Suffle(); //shuffles the list
+        }
+     public IActionResult OnPostPlay()
+        {
+            game = new Card(rows, columns, max);
+            Rand numbers = new Rand(max); //crates a new list of numbers 0 to max
+            numbers.Suffle(); //shuffles the list
+            for(int i = 0; i <draws; i++)
+{
+                int draw = numbers.draw(); //draws a number from the end of the list
+                game.Mark(draw); //marks the number on the board
+                
+            }
             return Page();
            
         }
-      
+     
+
     }
 }
