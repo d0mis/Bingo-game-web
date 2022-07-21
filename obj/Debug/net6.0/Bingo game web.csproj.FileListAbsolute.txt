@@ -1,0 +1,26 @@
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\bin\Debug\net6.0\appsettings.json
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\bin\Debug\net6.0\Bingo game web.staticwebassets.runtime.json
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\bin\Debug\net6.0\Bingo game web.exe
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\bin\Debug\net6.0\Bingo game web.deps.json
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\bin\Debug\net6.0\Bingo game web.runtimeconfig.json
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\bin\Debug\net6.0\Bingo game web.dll
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\bin\Debug\net6.0\Bingo game web.pdb
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\obj\Debug\net6.0\Bingo game web.csproj.AssemblyReference.cache
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\obj\Debug\net6.0\Bingo game web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\obj\Debug\net6.0\Bingo game web.AssemblyInfoInputs.cache
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\obj\Debug\net6.0\Bingo game web.AssemblyInfo.cs
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\obj\Debug\net6.0\Bingo game web.csproj.CoreCompileInputs.cache
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\obj\Debug\net6.0\Bingo game web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\obj\Debug\net6.0\Bingo game web.RazorAssemblyInfo.cache
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\obj\Debug\net6.0\Bingo game web.RazorAssemblyInfo.cs
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\obj\Debug\net6.0\scopedcss\bundle\Bingo game web.styles.css
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\obj\Debug\net6.0\scopedcss\projectbundle\Bingo game web.bundle.scp.css
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\obj\Debug\net6.0\Bingo game web.dll
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\obj\Debug\net6.0\refint\Bingo game web.dll
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\obj\Debug\net6.0\Bingo game web.pdb
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\obj\Debug\net6.0\Bingo game web.genruntimeconfig.cache
+C:\Users\dmdom\source\repos\Bingo game web\Bingo game web\obj\Debug\net6.0\ref\Bingo game web.dll
