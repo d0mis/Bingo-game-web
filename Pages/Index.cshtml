@@ -3,7 +3,13 @@
 @{
     ViewData["Title"] = "Home page";
 }
-
+<style>
+    table,th,td{
+        border:2px solid black;
+        border-collapse:collapse;
+        font-size:40px
+    }
+</style>
 <div class="text-center">
     <h1 class="display-4">Score= @Model.score</h1>
 </div>
@@ -21,22 +27,22 @@
 </form>
 
 <div>
-    Test=@Model.max
+    Card:
 </div>
 <table>
     @{
         for(int i=0;i<@Model.rows;i++)
         {
-            <tr></tr>
+                            <tr></tr>
             for(int j=0;j<@Model.columns;j++)
             {
                 if (!@Model.game.ReturnN(i, j).marked)
                 {
-                    <td>@Model.game.ReturnN(i,j).number </td>
+                                    <td>@Model.game.ReturnN(i,j).number </td>
                 }
                 if (@Model.game.ReturnN(i, j).marked)
                 {
-                    <td>x </td>
+                                    <td style="background-color:red">@Model.game.ReturnN(i,j).number </td>
                 }
             }
         
